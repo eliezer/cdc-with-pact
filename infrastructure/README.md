@@ -8,7 +8,7 @@ Prerequisites:
 
 Steps:
 - ``cd infrastructure``
-- ``cp -r jenkins/jenkins_home_init jenkins/jenkins_home``
+- ``cp -r jenkins/jenkins_home_init/* jenkins/jenkins_home``
 - ``docker-compose up``
 
 You should now be able to access Jenkins on <http://localhost:8080> and the Pact Broker on <http://localhost>.
